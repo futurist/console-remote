@@ -21,7 +21,9 @@ http.createServer((req, res)=>{
     res.writeHead(200, {
       'Content-Type': 'text/plain',
     })
-    fs.createReadStream(LOG).pipe(res)
+    const data = fs.createReadStream(LOG)
+    data.on('error', err=>res.end('no data'))
+    data.pipe(res)
   } else {
     res.end()
   }
