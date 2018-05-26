@@ -1,0 +1,8 @@
+{
+  "files": [
+    "package.json",
+    "yarn.lock",
+    "index.js",
+    ".env"
+  ]
+}

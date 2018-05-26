@@ -9,5 +9,9 @@
   },
   "repository": "https://github.com/futurist/console-remote",
   "author": "James Yang",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "mongodb": "^3.1.0-beta4"
+  }
 }
