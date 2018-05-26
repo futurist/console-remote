@@ -1,0 +1,12 @@
+{
+  "name": "console-remote",
+  "version": "1.0.0",
+  "description": "Console to remote server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/futurist/console-remote",
+  "author": "James Yang",
+  "license": "MIT"
+}
